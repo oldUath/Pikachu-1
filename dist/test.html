@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.skin {
+            position: fixed;
+            height: 50vh;
+            left: 50%;
+            bottom: 50px;
+            margin-left: -50px;
+        }
+        #buttons{
+            position: fixed;
+            top: 30px; 
+            right: 30px;
+            display: flex;
+            flex-direction: column;
+            z-index: 9;
+        }
+        #buttons>button{
+            width: 60px;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        #output {
+            background-color: #fff;
+            height: 50vh;
+            overflow: auto;
+        }
+
+        /*隐藏滚动条 */
+        #output::-webkit-scrollbar {
+            display: none;
+        }</style>
+</head>
+
+<body>
+    <div id="demo"></div>
+    <div id="output"></div>
+    <div id="buttons">
+        <button id="play">播放</button>
+        <button id="pause">暂停</button>
+        <button id="slow">慢速</button>
+        <button id="mid">中速</button>
+        <button id="quickly">快速</button>
+    </div>
+    <div id="html">
+            <div class="skin">
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="nose"></div>
+                <div class="mouth">
+                    <div class="up">
+                        <div class="lib_left"></div>
+                        <div class="lib_right"></div>
+                    </div>
+                    <div class="down">
+                        <div class="yuan1">
+                            <div class="yuan2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="face left"></div>
+                <div class="face right"></div>
+            </div>
+    </div>
+
+    <script src="test.0b1bfc70.js"></script>
+</body>
+
+</html>
